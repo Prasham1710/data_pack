@@ -17,8 +17,9 @@ const Notify = () => {
             w-[200px] ml-4 my-6 px-6 py-2'>Notify Me</button>
           </div>
           <p>
-             About grow -
-              <span className='text-[#00df9a]'>Privacy Policy.</span>
+             About Signal -
+              < a href='https://www.jio.com/en-in/jio-privacy-policy'><span className='text-[#00df9a]'>Privacy Policy.</span></a>
+              
           </p>
         </div></div></div>
   )

@@ -4,6 +4,7 @@ import Navbar from './componets/Navbar'
 import Analytics from './componets/analytics'
 import Notify from './componets/Notify'
 import Cards from './componets/Cards'
+import Footer from './componets/Footer'
 const App = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const App = () => {
       <Analytics />
       <Notify />
       <Cards />
+      <Footer/>
     </div>
   )
 }
