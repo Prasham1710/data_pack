@@ -16,7 +16,7 @@ const Navbar = () => {
             <img src ={Logo} alt="Logo Image" style={{width: '100px'}}/>
         </div>
       <ul className='hidden md:flex'>
-        <button><li className='p-4 '>Home</li></button>
+        <button  OnClick={() =>Footer(footer.jsx)} ><li className='p-4 '>Home</li></button>
         <button><li className='p-4'>Company</li></button>
         <button><li className='p-4'>Resources</li></button>
         <button><li className='p-4'>About</li></button>
