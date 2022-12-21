@@ -6,9 +6,9 @@ const Cards = () => {
   return (
     <div className='w-full bg-white py-[10rem] px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-        <div className='w-full border'>
-      <img className='w-20 mx-auto  bg-white ' src={Single} alt="/"/>
-      <h2 classname='text-2xl font-bold text-center py-8 '>Single User </h2>
+        <div className='w-full shadow-xl '>
+      <img className='w-20 mx-auto mt-[-3rem] bg-white ' src={Single} alt="/"/>
+      <h2 className='text-2xl font-bold text-center py-8'>Single User</h2>
       <p>Rs 249</p>
       <div>
         <p> 1gb/Day</p>
