@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './componets/Hero'
 import Navbar from './componets/Navbar'
-import About from './componets/About'
+import Analytics from './componets/analytics'
 import Notify from './componets/Notify'
 import Cards from './componets/Cards'
 import Footer from './componets/Footer'
@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <BrowserRouter > 
       <Routes>
-        <Route path='/about' element= {<About/>}/>
+        <Route path='/about' element= {<Analytics/>}/>
         <Route path='/' element= {<Hero/>}/>
         <Route path='/help' element= {<Notify/>}/>
         <Route path='/packages' element= {<Cards/>}/>
@@ -21,7 +21,10 @@ const App = () => {
       </BrowserRouter>
       
       
-     
+      <Analytics/>
+      <Notify />
+      <Cards />
+      <Footer/>
     </div>
   )
 }
