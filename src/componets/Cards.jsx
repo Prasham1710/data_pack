@@ -1,7 +1,5 @@
 import React from 'react'
 import Single from '../assets/single.png'
-import Double from '../assets/double.png'
-import triple from '../assets/triple.png'
 const Cards = () => {
   return (
     <div className='w-full bg-white py-[10rem] px-4'>
