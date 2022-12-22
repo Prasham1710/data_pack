@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from '../assets/logo.png'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Footer from './Footer';
-
+import{Link} from 'react-router-dom'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -16,11 +16,11 @@ const Navbar = () => {
             <img src ={Logo} alt="Logo Image" style={{width: '100px'}}/>
         </div>
       <ul className='hidden md:flex'>
-        <button  OnClick={() =>Footer(footer.jsx)} ><li className='p-4 '>Home</li></button>
-        <button><li className='p-4'>Company</li></button>
-        <button><li className='p-4'>Resources</li></button>
-        <button><li className='p-4'>About</li></button>
-        <button><li className='p-4'>Contact</li></button>
+        <a href="/"><button> <li className='p-4'>Home</li></button></a>
+        <a href="/about"><button> <li className='p-4'>About</li></button></a>
+       <a href="/help"><button> <li className='p-4'>Help</li></button></a>
+        <a href="/packages"><button> <li className='p-4'>Packages</li></button></a>
+        <a href="/contact"><button> <li className='p-4'>Contact</li></button></a>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
