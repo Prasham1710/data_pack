@@ -19,11 +19,12 @@ const App = () => {
         <Route path='/contact' element= {<Footer/>}/>
       </Routes>
        </BrowserRouter> */}
+      <Hero/>
       <Analytics/>
       <Notify/>
       <Cards/>
       <Footer/>
-      <Hero/>
+      
       
     </div>
   )
