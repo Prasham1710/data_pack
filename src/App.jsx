@@ -20,7 +20,7 @@ const App = () => {
       </Routes>
       </BrowserRouter>
       
-      
+      <Hero />
       <Analytics/>
       <Notify />
       <Cards />
